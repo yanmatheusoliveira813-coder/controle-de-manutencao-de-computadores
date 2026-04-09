@@ -1,0 +1,1577 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/yanmatheusoliveira813-coder/controle-de-manutencao-de-computadores/blob/main/Dever%20Am%C3%A9lia%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "1. Crie um programa que receba o nome do usuário e exiba uma mensagem de\n",
+        "boas-vindas personalizada."
+      ],
+      "metadata": {
+        "id": "oZVn-Zuu75aw"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome = input(\"nome\")\n",
+        "print(\"boas vindas amigo,\",nome)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sbnERy0V76v6",
+        "outputId": "bcd11477-830f-485b-fc87-dfa613ab40c0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nomeyan\n",
+            "boas vindas amigo, yan\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "2. Desenvolva um programa que receba a idade de uma pessoa e exiba essa\n",
+        "informação na tela."
+      ],
+      "metadata": {
+        "id": "sufN_4YF-Pxo"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "idade = input(\"digite sua idade\")\n",
+        "print(\"sua idade e\", idade)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KwrYxzRh-TyM",
+        "outputId": "cb7bc852-2de0-48fa-991d-835e25c36254"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite sua idade12\n",
+            "sua idade e 12\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "3. Crie um programa que receba o nome e o curso de um aluno e exiba ambos\n",
+        "organizadamente."
+      ],
+      "metadata": {
+        "id": "7uG2hfKt-_ad"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome = input(\"digite seu nome\")\n",
+        "curso =input(\" digite seu curso\")\n",
+        "\n",
+        "print(\"nome:\", nome)\n",
+        "print(\"curso:\", curso)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "collapsed": true,
+        "id": "ydhB7rm9_Dih",
+        "outputId": "cca1ac75-ccec-4f06-906e-1d1dfcac5496"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite seu nomelucas\n",
+            " digite seu cursoredes\n",
+            "nome: lucas\n",
+            "curso: redes\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "4. Faça um programa que receba um número inteiro e exiba seu dobro"
+      ],
+      "metadata": {
+        "id": "ZfByjmLDBy7j"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero=int(input(\"digite o numero: \"))\n",
+        "dobro = numero * 2\n",
+        "print(\"o dobro e:\",dobro)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "MmCqpsPCB5I1",
+        "outputId": "bddc04dd-59c3-431f-c83d-0376a50ddd61"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite o numero: 2\n",
+            "o dobro e: 4\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "5. Desenvolva um programa que receba dois números e exiba a soma entre eles.\n"
+      ],
+      "metadata": {
+        "id": "Il4OMNQ0C6en"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "n1= float(input(\"digite o primeiro numero\"))\n",
+        "n2= float(input(\"digite o segundo numero\"))\n",
+        "soma = n1+n2\n",
+        "print(\"A soma e:\",soma)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FswnjovyC_PY",
+        "outputId": "88c0f204-4b3e-469c-a363-80d551784f58"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite o primeiro numero2\n",
+            "digite o segundo numero2\n",
+            "A soma e: 4.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "6. Crie um programa que receba um valor em reais e exiba esse valor com\n",
+        "mensagem formatada.\n"
+      ],
+      "metadata": {
+        "id": "l3Ux70lgEQCd"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "valor = float(input(\"digite um valor em R$\"))\n",
+        "print(\"o valor digitado foi:\",valor)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PoMXw3McETda",
+        "outputId": "f74cd172-0e43-4ce6-d885-03f5915938e9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite um valor em R$60\n",
+            "o valor digitado foi: 60.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "7. Faça um programa que receba o nome de um produto e seu preço.\n"
+      ],
+      "metadata": {
+        "id": "62P89LpaGKal"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "produto = input(\"Nome do produto: \")\n",
+        "preco = float(input(\"Preço: \"))\n",
+        "\n",
+        "print(\"Produto:\", produto)\n",
+        "print(\"Preço: R$\", preco)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "X-wZghqyGMXp",
+        "outputId": "86844974-3de4-4509-c17e-ee439f3b6d20"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nome do produto: arroz\n",
+            "Preço: 13\n",
+            "Produto: arroz\n",
+            "Preço: R$ 13.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "8. Desenvolva um programa que receba o salário de um funcionário."
+      ],
+      "metadata": {
+        "id": "x0SDZ75AHLxg"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "salario = float(input(\"Digite o salário: \"))\n",
+        "print(\"Salário do funcionário: R$\", salario)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "gOOGMjtsHPtU",
+        "outputId": "dc77e966-b297-4f82-9476-3910f8ebe3d3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o salário: 1500\n",
+            "Salário do funcionário: R$ 1500.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "9. Crie um programa que receba a altura e o peso de uma pessoa.\n"
+      ],
+      "metadata": {
+        "id": "bYHkL0BiHceG"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "altura = float(input(\"Digite sua altura: \"))\n",
+        "peso = float(input(\"Digite seu peso: \"))\n",
+        "\n",
+        "print(\"Altura:\", altura)\n",
+        "print(\"Peso:\", peso)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "X84WenayHnfb",
+        "outputId": "cb7d958a-22c9-4107-fe52-add479ddbdac"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite sua altura: 1.55\n",
+            "Digite seu peso: 55\n",
+            "Altura: 1.55\n",
+            "Peso: 55.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "10. Faça um programa que receba o nome de uma cidade e exiba uma mensagem\n",
+        "com ela."
+      ],
+      "metadata": {
+        "id": "s6EwufaPH02e"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "cidade = input(\"Digite o nome da cidade: \")\n",
+        "print(\"Você mora em\", cidade)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vpJI1l_2H2tK",
+        "outputId": "ea0417c6-d891-4945-eacb-59998f446a95"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o nome da cidade: santarem\n",
+            "Você mora em santarem\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "11. Desenvolva um programa que calcule a média de duas notas de um aluno.\n"
+      ],
+      "metadata": {
+        "id": "goqlzhmSJbPS"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nota1 = float(input(\"Digite a primeira nota: \"))\n",
+        "nota2 = float(input(\"Digite a segunda nota: \"))\n",
+        "\n",
+        "media = (nota1 + nota2) / 2\n",
+        "\n",
+        "print(\"Média:\", media)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4OeL6AzNJexC",
+        "outputId": "c9efaf68-7faa-4292-b696-d4d758e7b771"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a primeira nota: 80\n",
+            "Digite a segunda nota: 60\n",
+            "Média: 70.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "12. Crie um programa que calcule o salário com bônus de 10%"
+      ],
+      "metadata": {
+        "id": "lJmSJreeJnGQ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "salario = float(input(\"Digite o salário: \"))\n",
+        "\n",
+        "bonus = salario * 0.10\n",
+        "total = salario + bonus\n",
+        "\n",
+        "print(\"Salário com bônus:\", total)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mHeZdvflJqW3",
+        "outputId": "7c3c7aea-dc10-4004-f65a-b8cbc83d5692"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o salário: 1612\n",
+            "Salário com bônus: 1773.2\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "13. Faça um programa que calcule o valor total de uma compra (quantidade × preço)."
+      ],
+      "metadata": {
+        "id": "pTf7ZfKnJrGQ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "quantidade = int(input(\"Quantidade: \"))\n",
+        "preco = float(input(\"Preço: \"))\n",
+        "\n",
+        "total = quantidade * preco\n",
+        "\n",
+        "print(\"Total da compra:\", total)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "nc2sUvyfJuFR",
+        "outputId": "3e32a489-39ce-4436-b368-bca0be0dd4c9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Quantidade: 33\n",
+            "Preço: 764\n",
+            "Total da compra: 25212.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "14. Desenvolva um programa que calcule a idade de uma pessoa com base no ano de"
+      ],
+      "metadata": {
+        "id": "ouOCPJkqKENZ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ano = int(input(\"Ano de nascimento: \"))\n",
+        "idade = 2026 - ano\n",
+        "\n",
+        "print(\"Idade:\", idade)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CKBgEAEqKHlW",
+        "outputId": "281e768a-a45a-47d8-a3c7-f649889dea11"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ano de nascimento: 2005\n",
+            "Idade: 21\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "15. Desenvolva um programa que calcule o consumo médio de combustível (km/l)."
+      ],
+      "metadata": {
+        "id": "ntSmK1GcKIB0"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "km = float(input(\"Km percorridos: \"))\n",
+        "litros = float(input(\"Litros usados: \"))\n",
+        "\n",
+        "consumo = km / litros\n",
+        "\n",
+        "print(\"Consumo:\", consumo, \"km/l\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3gEs2Gv-KKwt",
+        "outputId": "91a7b3c9-89bf-4675-ba0b-c3f886a69c70"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Km percorridos: 55\n",
+            "Litros usados: 42\n",
+            "Consumo: 1.3095238095238095 km/l\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "16. Crie um programa que calcule o valor de desconto de um produto (ex: 20%)."
+      ],
+      "metadata": {
+        "id": "FfPkDP36KLYS"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "preco = float(input(\"Preço do produto: \"))\n",
+        "desconto = preco * 0.20\n",
+        "\n",
+        "final = preco - desconto\n",
+        "\n",
+        "print(\"Valor com desconto:\", final)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sq4gT9GwKOq5",
+        "outputId": "efe91358-e671-4f11-d898-c6559e640bb0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Preço do produto: 20\n",
+            "Valor com desconto: 16.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "17. Faça um programa que calcule o valor final de uma conta com taxa de serviço."
+      ],
+      "metadata": {
+        "id": "8TtQiw2CK9LC"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "valor = float(input(\"Valor da conta: \"))\n",
+        "taxa = valor * 0.10\n",
+        "\n",
+        "total = valor + taxa\n",
+        "\n",
+        "print(\"Total com taxa:\", total)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1xD13VueK_wr",
+        "outputId": "9719d051-dd7a-45e5-d8ed-03cb5b28f512"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Valor da conta: 400\n",
+            "Total com taxa: 440.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "18. Desenvolva um programa que calcule a área de um retângulo."
+      ],
+      "metadata": {
+        "id": "2UDDpu5sLCBt"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "base = float(input(\"Base: \"))\n",
+        "altura = float(input(\"Altura: \"))\n",
+        "\n",
+        "area = base * altura\n",
+        "\n",
+        "print(\"Área:\", area)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5drGOX0PLDT5",
+        "outputId": "0a077e0d-e9e2-408d-c47b-db2f27b516df"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Base: 40\n",
+            "Altura: 40\n",
+            "Área: 1600.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "19. Crie um programa que verifique se uma pessoa é maior de idade.\n"
+      ],
+      "metadata": {
+        "id": "D_1bV7XZLD8P"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "idade = int(input(\"Idade: \"))\n",
+        "\n",
+        "if idade >= 18:\n",
+        "    print(\"Maior de idade\")\n",
+        "else:\n",
+        "    print(\"Menor de idade\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "h2wj4cSqLHVc",
+        "outputId": "e1177106-6d44-4c9c-8345-f6a6ebc39117"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Idade: 20\n",
+            "Maior de idade\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "20. Desenvolva um sistema que classifique um aluno como aprovado ou reprovado\n",
+        "(média ≥ 7)\n"
+      ],
+      "metadata": {
+        "id": "A8sw7skqLIHe"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "media = float(input(\"Média: \"))\n",
+        "\n",
+        "if media >= 7:\n",
+        "    print(\"Aprovado\")\n",
+        "else:\n",
+        "    print(\"Reprovado\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eozSuG-HLLJ1",
+        "outputId": "cccfca33-e6d8-4fec-92fc-41440326ff8d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Média: 70\n",
+            "Aprovado\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "21. Crie um programa que classifique um aluno em:\n",
+        "a. Aprovado\n",
+        "b. Recuperação\n",
+        "c. Reprovado\n"
+      ],
+      "metadata": {
+        "id": "mAewvd6tL-om"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "media = float(input(\"Média: \"))\n",
+        "\n",
+        "if media >= 7:\n",
+        "    print(\"Aprovado\")\n",
+        "elif media >= 5:\n",
+        "    print(\"Recuperação\")\n",
+        "else:\n",
+        "    print(\"Reprovado\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pIREK_ZWMDaC",
+        "outputId": "62194424-7ebc-4a46-c743-e4591436607f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Média: 80\n",
+            "Aprovado\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "22. Crie um sistema simples de login que valide usuário e senha (valores fixos no\n",
+        "código)."
+      ],
+      "metadata": {
+        "id": "Qb_pZ70ZMEAV"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "usuario = input(\"Usuário: \")\n",
+        "senha = input(\"Senha: \")\n",
+        "\n",
+        "if usuario == \"admin\" and senha == \"1234\":\n",
+        "    print(\"Login correto\")\n",
+        "else:\n",
+        "    print(\"Login inválido\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YoaUDLulMIoe",
+        "outputId": "cf2ed055-47de-43f4-fb9f-5f66b3591c27"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Usuário: yan\n",
+            "Senha: 1234\n",
+            "Login inválido\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "23. Faça um programa que calcule o preço de um produto com base na forma de\n",
+        "pagamento:\n",
+        "a. À vista → desconto\n",
+        "b. Parcelado → valor normal"
+      ],
+      "metadata": {
+        "id": "VX8bDAbGMI4l"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "preco = float(input(\"Preço: \"))\n",
+        "forma = input(\"Forma (avista/parcelado): \")\n",
+        "\n",
+        "if forma == \"avista\":\n",
+        "    total = preco * 0.9\n",
+        "else:\n",
+        "    total = preco\n",
+        "\n",
+        "print(\"Total:\", total)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ImYmNLLrMLsq",
+        "outputId": "e4ae1b34-5583-4880-a4a7-f7ca0ddad9f1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Preço: 400\n",
+            "Forma (avista/parcelado): 100\n",
+            "Total: 400.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "24. Desenvolva um programa que simule aprovação de empréstimo com base em\n",
+        "renda (inspirado na atividade vista em aula)"
+      ],
+      "metadata": {
+        "id": "u5ykKFpJMQH7"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "renda = float(input(\"Renda: \"))\n",
+        "prestacao = float(input(\"Prestação: \"))\n",
+        "\n",
+        "if prestacao <= renda * 0.3:\n",
+        "    print(\"Aprovado\")\n",
+        "else:\n",
+        "    print(\"Negado\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EI0TxIS2MRlI",
+        "outputId": "7ebc3f72-63e5-4924-ccbd-a24f94da9260"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Renda: 1000\n",
+            "Prestação: 400\n",
+            "Negado\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "25. Crie um programa que classifique a faixa etária:\n",
+        "a. Criança\n",
+        "b. Adolescente\n",
+        "c. Adulto\n",
+        "d. Idoso"
+      ],
+      "metadata": {
+        "id": "zuR7STszMURa"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "idade = int(input(\"Idade: \"))\n",
+        "\n",
+        "if idade <= 12:\n",
+        "    print(\"Criança\")\n",
+        "elif idade <= 17:\n",
+        "    print(\"Adolescente\")\n",
+        "elif idade <= 59:\n",
+        "    print(\"Adulto\")\n",
+        "else:\n",
+        "    print(\"Idoso\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yj4wS45PMVQi",
+        "outputId": "cea14e6a-7e3f-40d5-90fe-0bb4e40909c8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Idade: 20\n",
+            "Adulto\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "26. Desenvolva um programa que determine se um aluno foi aprovado com\n",
+        "excelência, aprovado, recuperação ou reprovado.\n"
+      ],
+      "metadata": {
+        "id": "h4zE9IhbMVnE"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "media = float(input(\"Digite a média (use ponto, ex: 6.5): \"))\n",
+        "\n",
+        "if media < 5:\n",
+        "    print(\"Resultado: Reprovado\")\n",
+        "elif media < 7:\n",
+        "    print(\"Resultado: Recuperação\")\n",
+        "elif media < 9:\n",
+        "    print(\"Resultado: Aprovado\")\n",
+        "else:\n",
+        "    print(\"Resultado: Aprovado com excelência\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KYEyd_iAPPdl",
+        "outputId": "ae19a87a-397d-47fc-a598-a2dac1fea29c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a média (use ponto, ex: 6.5): 4.0\n",
+            "Resultado: Reprovado\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "27. Desenvolva um programa que verifique se um número é:\n",
+        "a. Positivo\n",
+        "b. Negativo\n",
+        "c. Zero"
+      ],
+      "metadata": {
+        "id": "1LO0uECGMcoU"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = float(input(\"Número: \"))\n",
+        "\n",
+        "if num > +0:\n",
+        "    print(\"Positivo\")\n",
+        "elif num <-0:\n",
+        "    print(\"Negativo\")\n",
+        "else:\n",
+        "    print(\"Zero\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UzSJvzAnMfFS",
+        "outputId": "1e054a4d-f72c-4f11-cf67-388bed05d011"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Número: -6\n",
+            "Negativo\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "28. Crie um programa que classifique um número como:\n",
+        "● Par\n",
+        "● Ímpar"
+      ],
+      "metadata": {
+        "id": "cs3p0LGVMfQs"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num = int(input(\"Número: \"))\n",
+        "\n",
+        "if num % 2 == 0:\n",
+        "    print(\"Par\")\n",
+        "else:\n",
+        "    print(\"Ímpar\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rGs5lJVCMim1",
+        "outputId": "54e3b219-77e4-4ef9-8fb7-deaaab4da0e8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Número: 7\n",
+            "Ímpar\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "29. Desenvolva um programa que calcule o valor de uma corrida de aplicativo com\n",
+        "base na distância:\n",
+        "● Até 5 km → R$10\n",
+        "● Até 10 km → R$20\n",
+        "● Até 20 km → R$30\n",
+        "● Acima de 20 km → R$50"
+      ],
+      "metadata": {
+        "id": "ZgPLV5ZVMiyD"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "km = float(input(\"Distância: \"))\n",
+        "\n",
+        "if km <= 5:\n",
+        "    valor = 10\n",
+        "elif km <= 10:\n",
+        "    valor = 20\n",
+        "elif km <= 20:\n",
+        "    valor = 30\n",
+        "else:\n",
+        "    valor = 50\n",
+        "\n",
+        "print(\"Valor:\", valor)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "F1vvEPfHMkyR",
+        "outputId": "af720074-a79e-4140-ae78-b14e9ef5cf00"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Distância: 50\n",
+            "Valor: 50\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "30. Crie um programa que calcule o valor de uma conta de energia com base no\n",
+        "consumo:\n",
+        "● Até 100 kWh → tarifa básica\n",
+        "● Até 200 kWh → tarifa média\n",
+        "● Acima de 200 kWh → tarifa alta"
+      ],
+      "metadata": {
+        "id": "ZiObtyBFMlkH"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "consumo = float(input(\"Consumo kWh: \"))\n",
+        "\n",
+        "if consumo <= 100:\n",
+        "    print(\"Tarifa básica\")\n",
+        "elif consumo <= 200:\n",
+        "    print(\"Tarifa média\")\n",
+        "else:\n",
+        "    print(\"Tarifa alta\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LI_dL325MnyW",
+        "outputId": "c7ec318d-1710-43d9-cd0d-784f1a12fbe5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Consumo kWh: 69\n",
+            "Tarifa básica\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "31. Desenvolva um programa que classifique a temperatura informada:\n",
+        "● Frio (abaixo de 20°C)\n",
+        "● Agradável (20 a 29°C)\n",
+        "● Quente (30°C ou mais)"
+      ],
+      "metadata": {
+        "id": "ZsX3Q7_6Moib"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "temp = float(input(\"Temperatura: \"))\n",
+        "\n",
+        "if temp < 20:\n",
+        "    print(\"Frio\")\n",
+        "elif temp <= 29:\n",
+        "    print(\"Agradável\")\n",
+        "else:\n",
+        "    print(\"Quente\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "EETi9SRPMqrC",
+        "outputId": "51498d41-03c8-4ccf-9bc3-c55d6cee3d59"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Temperatura: 30\n",
+            "Quente\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "32. Crie um programa que verifique se um usuário pode entrar em um evento com base\n",
+        "na idade e posse de ingresso:\n",
+        "● Se não tiver ingresso → acesso negado\n",
+        "● Se tiver ingresso e idade ≥ 18 → acesso permitido\n",
+        "● Caso contrário → acesso restrito"
+      ],
+      "metadata": {
+        "id": "RO2U6DKaMrmB"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "idade = int(input(\"Idade: \"))\n",
+        "ingresso = input(\"Tem ingresso? (sim/nao): \")\n",
+        "\n",
+        "if ingresso == \"nao\":\n",
+        "    print(\"Acesso negado\")\n",
+        "elif idade >= 18:\n",
+        "    print(\"Acesso permitido\")\n",
+        "else:\n",
+        "    print(\"Acesso restrito\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_dHA0NBDMu9w",
+        "outputId": "5907a67d-0b01-4a85-c0a3-9dcd0535b823"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Idade: 16\n",
+            "Tem ingresso? (sim/nao): sim\n",
+            "Acesso restrito\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "33. Desenvolva um programa que calcule o valor de um produto com base na\n",
+        "quantidade comprada:\n",
+        "● Até 10 unidades → preço normal\n",
+        "● Até 20 unidades → 10% de desconto\n",
+        "● Acima de 20 → 20% de desconto"
+      ],
+      "metadata": {
+        "id": "y-5shv45MvT_"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "qtd = int(input(\"Quantidade: \"))\n",
+        "preco = float(input(\"Preço unitário: \"))\n",
+        "\n",
+        "total = qtd * preco\n",
+        "\n",
+        "if qtd <= 10:\n",
+        "    total = total\n",
+        "elif qtd <= 20:\n",
+        "    total *= 0.9\n",
+        "else:\n",
+        "    total *= 0.8\n",
+        "\n",
+        "print(\"Total:\", total)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ri2ecMI6MxyU",
+        "outputId": "6c16886f-493c-48c6-a5bf-f16e4b9bcc54"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Quantidade: 20\n",
+            "Preço unitário: 30\n",
+            "Total: 540.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "34. Crie um programa que classifique um funcionário com base no desempenho (nota\n",
+        "de 0 a 10):\n",
+        "● Excelente\n",
+        "● Bom\n",
+        "● Regular\n",
+        "● Ruim"
+      ],
+      "metadata": {
+        "id": "9ttZUu-5Myek"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nota = float(input(\"Nota: \"))\n",
+        "\n",
+        "if nota >= 9:\n",
+        "    print(\"Excelente\")\n",
+        "elif nota >= 7:\n",
+        "    print(\"Bom\")\n",
+        "elif nota >= 5:\n",
+        "    print(\"Regular\")\n",
+        "else:\n",
+        "    print(\"Ruim\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yJyyPKqTM0-N",
+        "outputId": "1a8fb35b-d75e-40c4-8866-7608d465dfaf"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Nota: 6\n",
+            "Regular\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "35. Desenvolva um programa que verifique se um ano é bissexto:\n",
+        "● Divisível por 4 → possível bissexto\n",
+        "● Divisível por 100 → não é\n",
+        "● Divisível por 400 → é bissexto\n"
+      ],
+      "metadata": {
+        "id": "oC1WtsYdM1gq"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "ano = int(input(\"Ano: \"))\n",
+        "\n",
+        "if ano % 400 == 0:\n",
+        "    print(\"Bissexto\")\n",
+        "elif ano % 100 == 0:\n",
+        "    print(\"Não é bissexto\")\n",
+        "elif ano % 4 == 0:\n",
+        "    print(\"Bissexto\")\n",
+        "else:\n",
+        "    print(\"Não é bissexto\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "11JdVfngM3VJ",
+        "outputId": "4b6a05f9-ea74-405e-b4c2-de35482de3b4"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ano: 2026\n",
+            "Não é bissexto\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "36. Crie um programa que simule um sistema de senha com 3 tentativas:\n",
+        "● Se acertar → acesso liberado\n",
+        "● Após 3 erros → acesso bloqueado"
+      ],
+      "metadata": {
+        "id": "y2JPjXqtM38G"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "senha_correta = \"1234\"\n",
+        "\n",
+        "for i in range(3):\n",
+        "    senha = input(\"Digite a senha: \")\n",
+        "\n",
+        "    if senha == senha_correta:\n",
+        "        print(\"Acesso liberado\")\n",
+        "        break\n",
+        "    else:\n",
+        "        print(\"Senha errada\")\n",
+        "\n",
+        "else:\n",
+        "    print(\"Acesso bloqueado\")"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kvKQUpkOM69w",
+        "outputId": "73819a3d-94bf-4376-aebb-1f652c9e9d64"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite a senha: 784576\n",
+            "Senha errada\n",
+            "Digite a senha: 464756\n",
+            "Senha errada\n",
+            "Digite a senha: 1234\n",
+            "Acesso liberado\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "37. Desenvolva um programa que classifique um cliente para desconto com base no\n",
+        "valor da compra:\n",
+        "● Até R$100 → sem desconto\n",
+        "● Até R$500 → 5%\n",
+        "● Até R$1000 → 10%\n",
+        "● Acima de R$1000 → 15%"
+      ],
+      "metadata": {
+        "id": "Qh-FVxk5M7sv"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "valor = float(input(\"Valor da compra: \"))\n",
+        "\n",
+        "if valor <= 100:\n",
+        "    desconto = 0\n",
+        "elif valor <= 500:\n",
+        "    desconto = 0.05\n",
+        "elif valor <= 1000:\n",
+        "    desconto = 0.10\n",
+        "else:\n",
+        "    desconto = 0.15\n",
+        "\n",
+        "final = valor - (valor * desconto)\n",
+        "\n",
+        "print(\"Valor final:\", final)"
+      ],
+      "metadata": {
+        "collapsed": true,
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "--F8XxGkM92J",
+        "outputId": "56699dd3-fe5a-480e-bb7e-bcaf53b268a7"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Valor da compra: 230\n",
+            "Valor final: 218.5\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
